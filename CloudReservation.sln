@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudReservation.Service", "CloudReservation.Service\CloudReservation.Service.csproj", "{8BE833EB-8128-4D27-9B39-BE0FDAC82A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudReservation.DAL", "CloudReservation.DAL\CloudReservation.DAL.csproj", "{1566D1F4-7788-4667-A184-E5378445218A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudReservation.Service.IntegrationTest", "CloudReservation.Service.IntegrationTest\CloudReservation.Service.IntegrationTest.csproj", "{89F2D815-7546-4235-94D9-66777A51F6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudReservation.Service.UnitTest", "CloudReservation.Service.UnitTest\CloudReservation.Service.UnitTest.csproj", "{0E539207-3B91-4278-9C8F-6CB1DC5807C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0B1B354C-68DD-4667-9FFD-32925D0E9281}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BF05BB54-319E-47A7-872E-EF90797620CA}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		wait-for-it.sh = wait-for-it.sh
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSignalR.TesterConsole", "NotificationSignalR.TesterConsole\NotificationSignalR.TesterConsole.csproj", "{CA0E5638-5668-4936-8B68-1DC07DF49965}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BE833EB-8128-4D27-9B39-BE0FDAC82A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE833EB-8128-4D27-9B39-BE0FDAC82A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE833EB-8128-4D27-9B39-BE0FDAC82A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE833EB-8128-4D27-9B39-BE0FDAC82A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1566D1F4-7788-4667-A184-E5378445218A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1566D1F4-7788-4667-A184-E5378445218A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1566D1F4-7788-4667-A184-E5378445218A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1566D1F4-7788-4667-A184-E5378445218A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F2D815-7546-4235-94D9-66777A51F6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F2D815-7546-4235-94D9-66777A51F6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F2D815-7546-4235-94D9-66777A51F6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F2D815-7546-4235-94D9-66777A51F6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E539207-3B91-4278-9C8F-6CB1DC5807C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E539207-3B91-4278-9C8F-6CB1DC5807C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E539207-3B91-4278-9C8F-6CB1DC5807C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E539207-3B91-4278-9C8F-6CB1DC5807C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA0E5638-5668-4936-8B68-1DC07DF49965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0E5638-5668-4936-8B68-1DC07DF49965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0E5638-5668-4936-8B68-1DC07DF49965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0E5638-5668-4936-8B68-1DC07DF49965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89F2D815-7546-4235-94D9-66777A51F6C7} = {0B1B354C-68DD-4667-9FFD-32925D0E9281}
+		{0E539207-3B91-4278-9C8F-6CB1DC5807C5} = {0B1B354C-68DD-4667-9FFD-32925D0E9281}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿services:
+  cloudreservation.service:
+    image: cloudreservation.service
+    build:
+      context: .
+      dockerfile: CloudReservation.Service/Dockerfile
+    ports:
+      - "5000:80"
+
+  mariadb:
+    image: mariadb:latest
+    container_name: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "3307:3306"
